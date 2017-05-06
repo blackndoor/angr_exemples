@@ -1,4 +1,4 @@
-# Angr - exemple
+# Angr - exemples
 
 This repository will contains some simples exemples on how to use angr.
 
