@@ -16,7 +16,7 @@ symbols = ['printf','fgets','puts','fflush','calloc','exit']
 for symbol in symbols:
     project.hook_symbol(symbol,simuvex.SimProcedures['libc.so.6'][symbol])
 
-# start the state in main, before the 0x6c6 function
+# start the state in main, before the 0xc6c function
 # 0x7af: mov     rdi, rbx
 state = project.factory.blank_state(addr=0x4007af)
 
