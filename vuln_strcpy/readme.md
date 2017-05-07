@@ -1,4 +1,4 @@
-# strcpy - check if we control the source buffer
+# strcpy - source buffer
 
 It's a simple exemple on how to check if the source buffer of a strcpy call is under control.
 
