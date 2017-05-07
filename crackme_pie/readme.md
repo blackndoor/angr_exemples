@@ -21,7 +21,7 @@ linux-vdso.so.1 =>  (0x00007ffcbc7f3000)
 libc.musl-x86_64.so.1 => not found
 ```
 
-It prints 'enter code:', reads some string from stdin, calls function 0x6c6 and prints 'sum is %ld'.
+It prints 'enter code:', reads some string from stdin, calls function 0xc6c and prints 'sum is %ld'.
 
 Trying to enter a string 'test', 'sum is %ld' isn't printed out so exit is called in the function 0x6c6.
 
