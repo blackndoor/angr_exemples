@@ -23,7 +23,7 @@ libc.musl-x86_64.so.1 => not found
 
 It prints 'enter code:', reads some string from stdin, calls function 0xc6c and prints 'sum is %ld'.
 
-Trying to enter a string 'test', 'sum is %ld' isn't printed out so exit is called in the function 0x6c6.
+Trying to enter a string 'test', 'sum is %ld' isn't printed out so exit is called in the function 0xc6c.
 
 libc used is musl. Angr can't load the SimProcedures (I tried with no success, maybe I'm not up to date) from that libc so I call hook_symbol on the necessaries function with the libc.6.so.
 
